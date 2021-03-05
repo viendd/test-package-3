@@ -1,0 +1,29 @@
+{
+    "name": "viralsoft/testhello1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "viendd",
+            "email": "viendd@viralsoft.vn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Viralsoft\\Hello\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Viralsoft\\Hello\\HelloServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "description": "",
+    "minimum-stability": "dev"
+}
